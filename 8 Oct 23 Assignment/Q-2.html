@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        } */
+
+       .photo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;          
+        }
+        .photo .img{
+            width: 30%;
+            margin: 10px;
+        }
+        
+        @media (man-width: 800px){
+             .img{
+                width: 45%;
+            }
+        }  
+        @media (max-width: 500px){
+            .img1{
+                width: 100%;
+            }
+        } 
+       
+    </style>
+</head>
+
+<body>
+    <div class="photo">
+        
+            <div class="img1"><img src="img.jpg" alt=""></div>
+            <div class="img1"><img src="img.jpg" alt=""></div>
+            <div class="img1"><img src="img.jpg" alt=""></div>
+        
+    </div>
+
+</body>
+
+</html>
